@@ -1,0 +1,313 @@
+@font-face {
+    font-family: Rubik-Medium;
+    src: url('Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: Anonym;
+    src: url('Anonym.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f172a;
+}
+
+/* Sidebar */
+.sidebar{
+    height: 100%;
+    width: 105px;
+    position: fixed;
+    top: 43.5%;
+    left: 0;
+    background-color: transparent;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.nyan {
+    width: 55px; 
+    height: 37px;
+    margin-top: -30px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: 0.5s;
+}
+
+.ig {
+    width: 21px; 
+    height: 21px;
+    margin-bottom: 15px;
+}
+
+.x {
+    width: 20px; 
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.in {
+    width: 24px; 
+    height: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.dc {
+    width: 24px; 
+    height: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.vline {
+    color: transparent;
+    border-radius: 2px;
+    border-left: 2px solid #ccd6f6;
+    height: 150px;
+    position: bottom;
+    left: 50%;
+    margin-left: 3.24em;
+    margin-top: 15px;
+}
+
+.sidebar img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px #64ffda);
+}
+
+/* Navbar */
+.nav {
+    padding-top: 29px;
+}
+
+.nav a:hover {
+    background: none;
+    color: #43a59d;
+}
+
+.nav #blog:hover {
+    background: none;
+    color: #ccd6f6;
+}
+
+#blog {
+    color: #43a59d;
+    font: 20px Rubik-Medium;
+    text-decoration: none;
+    padding-left: 7.6em;
+}
+
+.home {
+    margin: 0px 30px 0px 31.5em;
+}
+
+.nav a {
+    color: #ccd6f6;
+    font: 17px Rubik-Medium;
+    margin-right: 37px;
+    text-decoration: none;
+}
+
+/* Intro */
+.intro h1 {
+    color: #64ffda;
+    margin: 8em 0px -30px 9.6em;
+    font: 16px Anonym;
+}
+
+.intro h3 {
+    color: #ccd6f6;
+    font: 50px Rubik-Medium;
+    margin-left: 2.97em;
+    margin-bottom: -30px;
+}
+
+.intro h2 {
+    color: #8892b0;
+    font: 45px Rubik-Medium;
+    margin-left: 3.33em;
+    margin-bottom: 29px;
+}
+
+.intro p {
+    color: #8892b0;
+    font: 16px sans-serif;
+    line-height: 1.61;
+    margin: 0px 0px 52px 9.42em;
+}
+
+.intro a {
+    color: #64ffda;
+    font: 15px Anonym;
+    margin-left: 10.1em;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    background: none;
+    color: #ccd6f6;
+}
+
+/* Main */
+.profile h1 {
+    color: #ccd6f6;
+    font: 35px Rubik-Medium;
+    margin: 4.2em 31% 4% 12.5%;
+    line-height: 0.1em;
+}
+
+.profile h1::after{
+    background-color: #ccd6f6;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 60%;
+}
+
+.profile h1::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.profile p {
+    color: #8892b0;
+    font: 17px sans-serif;
+    text-align: left;
+    margin: 1% 0% -3% 12.5%;
+    line-height: 1.7;
+}
+
+#pr {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 57px;
+    left: 38em;
+}
+
+.bd {
+    border: solid #64ffda;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 8px;
+    right: 28px;
+    z-index: 9;
+}
+
+.profile #pr img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 5px;
+    top: 42%;
+    right: 10%;
+    z-index: 12;
+}
+
+.profile .am {
+    width: 52.5%;
+}
+
+.profile .title {
+    margin: 17% 12% 3% 12.4%;
+    width: 59%;
+}
+
+.profile .ct {
+    margin-top: 8%;
+    width: 79%
+}
+
+.profile video {
+    width: 570px;
+    height: 450px;
+    margin-top: -47px;
+    margin-left: 9.5em;
+}
+
+#ft img {
+    width: 370px;
+    height: 170px;
+    border-radius: 5px;
+    border: 1px solid #64ffda;
+    position: absolute;
+    top: 158.5%;
+    right: 10em;
+}
+
+#ft p {
+    color: #64ffda;
+    font: 20px Anonym;
+    position: absolute;
+    top: 144.5%;
+    right: 8em;
+}
+
+#ft .gen {
+    color: #8892b0;
+    font: 21px Rubik-Medium;
+    top: 149.5%;
+    right: 7.7em;
+}
+
+.form{
+    margin: 4% 12% 2% 12.5%;
+}
+
+.shape{
+    font: 12px Rubik-medium;
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: auto;
+    background: transparent;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    background-color: #64ffda;
+}
+
+button {
+    background-color: transparent;
+    font: 12px Rubik-Medium;
+    border-radius: 5px;
+    color: #64ffda;
+    margin: -3% 12% 10% 12.5%;
+    padding: 15px;
+    border-color: #64ffda;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #ccd6f6;
+}
+
+.profile a {
+    color: #64ffda;
+    font: 15px Anonym;
+    margin-left: 10.1em;
+    text-decoration: none;
+    position: absolute;
+    top: 336%;
+}
+
+.profile a:hover {
+    background: none;
+    color: #ccd6f6;
+}
